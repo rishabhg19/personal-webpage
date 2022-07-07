@@ -1,9 +1,7 @@
-import React, { useState, useEffect} from 'react';
-import { motion } from 'framer-motion';
+import React from 'react';
 import { images } from '../../constants'
 import './About.scss';
 import { AppWrap } from '../../wrapper';
-import { SocialMedia } from '../../components';
 const About = () => {
 
   return (

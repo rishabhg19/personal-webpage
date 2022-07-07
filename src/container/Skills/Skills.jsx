@@ -1,15 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
-import ReactToolTip from 'react-tooltip';
-import { images } from '../../constants';
+//import ReactToolTip from 'react-tooltip';
 import { urlFor, client } from '../../client';
 import  './Skills.scss' ;
 
 const Skills = () => {
   const [skills, setSkills] = useState([]);
   useEffect(() => {
-    const query = '*[_type == "experiences"]';
+   // const query = '*[_type == "experiences"]';
     const skillsQuery = '*[_type == "skills"]';
     client.fetch(skillsQuery)
       .then((data) => {

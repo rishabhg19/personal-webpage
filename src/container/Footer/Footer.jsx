@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FontAwesmoeIcon } from "@fortawesome/free-brands-svg-icons";
 import { FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa';
 
 import { images } from '../../constants';
