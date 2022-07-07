@@ -41,7 +41,8 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-export default {
+
+const exportObject =  {
   email,
   stormwatch,
   mobile,
@@ -82,3 +83,5 @@ export default {
   skype,
   spotify,
 };
+
+export default exportObject;
